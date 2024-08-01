@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "android-project-creek",
+    "slug": "android-project-creek",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.radinax.androidprojectcreek"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.radinax.androidprojectcreek"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b612ab03-dc09-4c96-99e8-00869890acae"
+      }
+    },
+    "owner": "radinax",
+    "updates": {
+      "url": "https://u.expo.dev/b612ab03-dc09-4c96-99e8-00869890acae"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
